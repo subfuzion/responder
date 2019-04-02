@@ -8,8 +8,7 @@ image is built with using a build arg. Example:
 	$ curl localhost:8080
 	v1
 
-As shown above, the image tag should correlate to the version passed as a build
-arg.
+As shown above, the build arg and the image tag should match.
 
 The `hooks` directory supports automated Docker Hub builds. It uses the `git tag`
 for the repo to supply the build arg to `docker build`.
