@@ -13,6 +13,5 @@ As shown above, the build arg and the image tag should match.
 The `hooks` directory supports automated Docker Hub builds. It uses the `git tag`
 for the repo to supply the build arg to `docker build`.
 
-
-
-
+> See [subfuzion/responderweb](https://github.com/subfuzion/responderweb) for
+a web frontend to a responder.
